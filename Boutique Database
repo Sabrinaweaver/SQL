@@ -1,0 +1,26 @@
+-- Create a Boutique database
+
+CREATE TABLE boutique
+(id INTEGER PRIMARY KEY, 
+item TEXT,
+price INTEGER,
+gender TEXT,
+quanity INTEGER);
+
+insert into boutique values (1,"shirt", 1.00, "F", 10);
+insert into boutique values (2, "pants", 10.00, "F", 15);
+insert into boutique values (3, "dress shirt", 20.00, "m", 7);
+insert into boutique values (4, "dress pants", 20.00, "M", 12);
+insert into boutique values (5, "black belt", 4.00, "M", 5);
+insert into boutique values (6, "pink belt", 8.00, "F", 16);
+insert into boutique values (7, "socks", 4.00, "M", 34);
+insert into boutique values (8, "flats", 8.00, "f", 5);
+insert into boutique values (9, "sneakers", 30.00, "M", 27);
+insert into boutique values (10, "sunglasses", 4.00, "M", 5);
+insert into boutique values (11, "sunglasses", 4.00, "f", 10);
+insert into boutique values (12, "ball cap", 12.00, "M", 9);
+insert into boutique values (13, "boots", 35.00, "f", 8);
+insert into boutique values (14, "earrings", 5.00, "F", 17);
+insert into boutique values (15, "purse", 18.00, "f", 6);
+
+Select * from boutique
